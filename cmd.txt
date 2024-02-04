@@ -1,0 +1,21 @@
+
+-- make the project name "lstemojis1" the same as the module name!
+   this way, the project and module name can be checked in as the github project!
+
+ mkdir -p projs/module-example/lstemojis1
+ vi main.go
+
+--
+...
+ go mod init lstemojis1
+go: creating new go.mod: module lstemojis1
+go: to add module requirements and sums:
+        go mod tidy
+
+--
+ go get github.com/hackebrot/turtle@latest
+ go mod tidy
+
+--
+ go run main.go
+ go build main
