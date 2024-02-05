@@ -19,3 +19,13 @@ go: to add module requirements and sums:
 --
  go run main.go
  go build main
+
+--
+ create anew empty git repo: https://github.com/,username./lstemojis1
+ import /push the local repo to the new empty project
+ set up upstream tracking branch
+
+--
+ modify the go.mod as below
+...
+ module github.com/bxu1999/lstemojis1

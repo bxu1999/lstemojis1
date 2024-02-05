@@ -1,4 +1,4 @@
-module lstemojis1
+module github.com/bxu1999/lstemojis1
 
 go 1.20
 
